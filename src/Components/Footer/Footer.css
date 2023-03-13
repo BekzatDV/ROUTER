@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  margin-top: 5rem;
+  width: 100%;
+  bottom: 0;
+  height: 250px;
+  background-color: rgb(30, 40, 48);
+  color: white;
+}
+
+img {
+  width: 100px;
+  border-radius: 100%;
+}
+
+#footer-id {
+  margin-right: 10rem;
+}
+
+.footer__reight-side {
+  display: flex;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  text-decoration: none;
+  line-height: 2;
+}

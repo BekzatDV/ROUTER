@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.block {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+input {
+  margin: 1rem;
+  width: 50%;
+  height: 50px;
+  padding-left: 1rem;
+  font-size: 15px;
+  border-radius: 10px;
+}
+
+button {
+  margin-top: 3rem;
+  width: 30%;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+button:hover {
+  border: 2px solid black;
+  background-color: rgb(58, 69, 78);
+  color: white;
+}
